@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.227465">
+<testcase classname="Tags Demo" name="check Free CRM price details" time="0.227322">
+<system-out><![CDATA[Given I am on freecrm webpage to check free crm price details...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Tags Demo" name="check Free CRM stock details" time="0.000143">
+<system-out><![CDATA[Given I am on freecrm webpage to check free crm stock details...............passed
+]]></system-out>
+</testcase>
+</testsuite>
