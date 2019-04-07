@@ -9,17 +9,20 @@ public class TagsDemoStepDefinition
 	public void i_am_on_freecrm_webpage_to_check_free_crm_details()
 	{
 	   System.out.println("This is just testing purpose");
+	   System.out.println("****************************");
 	}
 
 	@Given("^I am on freecrm webpage to check free contact details$")
 	public void i_am_on_freecrm_webpage_to_check_free_contact_details()
 	{
 		System.out.println("This is just testing purpose");
+		System.out.println("****************************");
 	}
 
 	@Given("^I am on freecrm webpage to check free crm Deals details$")
 	public void i_am_on_freecrm_webpage_to_check_free_crm_Deals_details()  {
 		System.out.println("This is just testing purpose");
+		System.out.println("****************************");
 	}
 
 	@Given("^I am on freecrm webpage to check free crm price details$")
