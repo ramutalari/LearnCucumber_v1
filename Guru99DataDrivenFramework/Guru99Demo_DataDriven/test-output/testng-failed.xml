@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="InternetExplorer"/>
+  <parameter name="url" value="http://www.demo.guru99.com/V4/"/>
+  <test name="Test(failed)">
+    <parameter name="browser" value="InternetExplorer"/>
+    <parameter name="url" value="http://www.demo.guru99.com/V4/"/>
+    <classes>
+      <class name="com.guru99.DemoTest.NewAccountTest">
+        <methods>
+          <include name="PreConditions"/>
+          <include name="NewAccountCreation"/>
+          <include name="takesScreenshot"/>
+        </methods>
+      </class> <!-- com.guru99.DemoTest.NewAccountTest -->
+      <class name="com.guru99.DemoTest.Guru99Bank_LoginTest">
+        <methods>
+          <include name="takesScreenshot"/>
+        </methods>
+      </class> <!-- com.guru99.DemoTest.Guru99Bank_LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

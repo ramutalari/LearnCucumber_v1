@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="51675" started-at="2019-03-26T10:30:07Z" finished-at="2019-03-26T10:30:59Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="51675" started-at="2019-03-26T10:30:07Z" finished-at="2019-03-26T10:30:59Z">
+      <class name="com.guru99.DemoTest.Guru99Bank_LoginTest">
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.guru99.DemoTest.Guru99Bank_LoginTest@4c70fda8]" name="Login" duration-ms="18840" started-at="2019-03-26T16:00:27Z" finished-at="2019-03-26T16:00:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="takesScreenshot(org.testng.ITestResult)[pri:0, instance:com.guru99.DemoTest.Guru99Bank_LoginTest@4c70fda8]" name="takesScreenshot" is-config="true" duration-ms="204" started-at="2019-03-26T16:00:45Z" finished-at="2019-03-26T16:00:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=Guru99Bank_LoginTest.Login()[pri:0, instance:com.guru99.DemoTest.Guru99Bank_LoginTest@4c70fda8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takesScreenshot -->
+      </class> <!-- com.guru99.DemoTest.Guru99Bank_LoginTest -->
+      <class name="com.guru99.DemoTest.NewAccountTest">
+        <test-method status="PASS" signature="PreConditions(java.lang.String, java.lang.String)[pri:0, instance:com.guru99.DemoTest.NewAccountTest@724af044]" name="PreConditions" is-config="true" duration-ms="19717" started-at="2019-03-26T16:00:07Z" finished-at="2019-03-26T16:00:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InternetExplorer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.demo.guru99.com/V4/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreConditions -->
+        <test-method status="PASS" signature="NewAccountCreation()[pri:0, instance:com.guru99.DemoTest.NewAccountTest@724af044]" name="NewAccountCreation" duration-ms="12758" started-at="2019-03-26T16:00:46Z" finished-at="2019-03-26T16:00:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewAccountCreation -->
+        <test-method status="PASS" signature="takesScreenshot(org.testng.ITestResult)[pri:0, instance:com.guru99.DemoTest.NewAccountTest@724af044]" name="takesScreenshot" is-config="true" duration-ms="156" started-at="2019-03-26T16:00:58Z" finished-at="2019-03-26T16:00:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NewAccountCreation status=SUCCESS method=NewAccountTest.NewAccountCreation()[pri:0, instance:com.guru99.DemoTest.NewAccountTest@724af044] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takesScreenshot -->
+      </class> <!-- com.guru99.DemoTest.NewAccountTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

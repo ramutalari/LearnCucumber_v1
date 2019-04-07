@@ -1,0 +1,16 @@
+<suite name="Suite">
+  <test name="Test">
+  
+  <parameter name="browser" value="InternetExplorer">
+  </parameter>
+  
+  <parameter name="url" value="http://www.demo.guru99.com/V4/">
+  </parameter>
+  
+    <classes>
+      <class name="com.guru99.DemoTest.Guru99Bank_LoginTest"/>
+      <class name="com.guru99.DemoTest.NewAccountTest"/>      
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
